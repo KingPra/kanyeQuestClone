@@ -1,0 +1,44 @@
+body {
+    background-color: red;
+}
+
+li {
+   list-style: none;
+   width: 40px;
+   height: 40px;
+}
+
+ul {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+#social img {
+    width: 40px;
+    height: 40px;
+}
+#social {
+    margin-right: 5%;
+    text-align: right;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Trebuchet MS;
+    color: white;
+   /* display: inline-block; */
+   /* float: right;*/ 
+    margin-left: 600px;
+
+}
+h2 {
+    font-size: 25px;
+    font-family: Trebuchet MS;
+    color: #9370d8;
+    display: inline-block; 
+    float: right; 
+    margin: 0;
+}
