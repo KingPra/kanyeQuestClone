@@ -2,18 +2,38 @@ body {
     background-color: red;
 }
 
-li {
+/*li {
    list-style: none;
    width: 40px;
    height: 40px;
+}*/
+
+#twitter {
+    display: inline-block;
 }
 
+#facebook {
+    display: inline-block;
+}
+
+#google {
+    display: inline-block;
+}
 ul {
+    display: flex;
+    justify-content:space-between;
+    width: 10%;
+    position: absolute;
+    right: 0px;
+
+    /*
     display: inline-block;
     width: 40px;
     height: 40px;
     padding-left: 0px;
     margin: 0px;
+    position: absolute;
+*/
 }
 
 #social img {
@@ -29,16 +49,19 @@ h1 {
     font-size: 80px;
     font-family: Trebuchet MS;
     color: white;
-   /* display: inline-block; */
-   /* float: right;*/ 
-    margin-left: 600px;
+    margin: 100px 0 0 600px;
+    position: absolute;
 
 }
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-family: Trebuchet MS;
     color: #9370d8;
     display: inline-block; 
-    float: right; 
-    margin: 0;
+    margin: 0 0 0 600px;
+    position: absolute;
+}
+
+.yeezy {
+    position: absolute;
 }
