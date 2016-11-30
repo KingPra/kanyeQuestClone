@@ -108,10 +108,58 @@ div {
     height: 500px;
 }
 
-#second p {
+#second h1 {
     font-family: Trebuchet MS;
     font-size: 30px;
     color: white;
     margin: 0px;
     padding-top: 20px;
+    display: inline-block;
+}
+
+#second p {
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0px 0px 0px;
+}
+
+ button {
+     width: 230px;
+     height: 25px;
+     font-size: 15px;
+     border-radius: 3px;
+     border-style: solid;
+     border-color: white;
+     background-color: transparent;
+     position: absolute;
+     right: 85px;
+     margin-top: 20px;
+     padding: 0px;
+     color: white;
+     text-align: left;
+ }
+
+#third {
+    background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");
+    background-size: 100%;
+    height: 400px;
+}
+
+#fourth {
+    background-image: url("https://www.dpcpix.com/Content/public/builder/mount_solid_light_purple.png");
+    background-size: 100%;
+    height: 400px;
+}
+
+#fifth {
+    background-image: url("http://www.designbymarie.com/fanart/images/Tutorials/Wallpaper2/1b.jpg");
+    background-size: 100%;
+    height: 550px;
+}
+
+#sixth {
+    background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg");
+    background-size: 100%;
+    height: 450px;
 }
