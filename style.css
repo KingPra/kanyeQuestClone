@@ -1,5 +1,6 @@
 body {
-    background-color: red;
+    background-color: black;
+    margin: 0px;
 }
 
 /*li {
@@ -24,7 +25,8 @@ ul {
     justify-content:space-between;
     width: 10%;
     position: absolute;
-    right: 0px;
+    right: 85px;
+    top: 0px;
 
     /*
     display: inline-block;
@@ -40,28 +42,43 @@ ul {
     width: 40px;
     height: 40px;
 }
-#social {
+/*#social {
     margin-right: 5%;
     text-align: right;
-}
+}*/
 
+#text {
+    margin: 100px 0 0 600px;
+}
 h1 {
     font-size: 80px;
-    font-family: Trebuchet MS;
+    /*font-family: Trebuchet MS;*/
+    font-family: Bebas Neue;
     color: white;
-    margin: 100px 0 0 600px;
-    position: absolute;
-
+    margin: 0;
 }
+
 h2 {
     font-size: 30px;
     font-family: Trebuchet MS;
     color: #9370d8;
     display: inline-block; 
-    margin: 0 0 0 600px;
-    position: absolute;
+    margin: 0;
+
 }
 
-.yeezy {
+/*.yeezy {
     position: absolute;
+}*/
+
+div {
+    display: inline-block;
+}
+
+section {
+    background-image: url("http://kanyequest.com/assets/img/hero-bg.jpg");
+    background-position: right 450px top;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 1080px;
 }
